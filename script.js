@@ -1,8 +1,7 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Scroll reveal for sections
 const revealTargets = document.querySelectorAll(
-  '.study-card, .timeline-item, .skill-group, .edu-item, .about-text, .contact-grid'
+  '.ticket, .proj-card, .skill-group, .edu-item, .about-text, .contact-grid'
 );
 revealTargets.forEach((el) => el.classList.add('reveal'));
 
